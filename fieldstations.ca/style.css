@@ -422,14 +422,14 @@ div.stations-header div input { vertical-align: top; }
     z-index: 100;
     height: auto;
 }
-.station p.long { display: none; }
+.station p:not(.short) { display: none; }
 .station:hover p {
     opacity: 1;
     height: auto;
 
     transition: opacity 0.5s;
 }
-.station:hover p.long {
+.station:hover p:not(.short) {
     display: none;
 }
 .station .tags {
@@ -518,7 +518,7 @@ div.stations-header div input { vertical-align: top; }
 .station-expand p.short, .station-expand:hover p.short {
     display: none;
 }
-.station-expand p.long, .station-expand:hover p.long {
+.station-expand p:not(.short), .station-expand:hover p:not(.short) {
     display: block;
 }
 .station-expand .tags .s-tag {

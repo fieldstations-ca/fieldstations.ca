@@ -19,8 +19,14 @@ layout: base
 			<div class="station" style="background-image: url(/station_images/{{ station.image }});">
 				<div class="blurBG back" style="background-image: url(/station_images/{{ station.image }});"></div>
 				<div class="blurBG front" style="background-image: url(/station_images/{{ station.image }});"></div>
-				<h2><a href="{{ station.link }}">{{ station.title }}</a><button class="expand">&rang;</button></h2>
+				<h2>
+					<a href="{{ station.link }}" target="_blank" rel="nofollow">{{ station.title }}</a>
+					<button class="expand">&rang;</button>
+				</h2>
 				{% comment %}<p class="short">{% endcomment %}
+				<p class="short">
+					{{ station.content | strip_html | truncatewords: 45 }}
+				</p>
 				{{ station.content }}
 				{% comment %}</p>{% endcomment %}
 				<div class="tags">
