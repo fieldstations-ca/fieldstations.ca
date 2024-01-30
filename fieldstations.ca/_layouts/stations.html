@@ -1,0 +1,57 @@
+---
+layout: base
+---
+
+<article class="no-side">
+	<div class="stations-header">
+		<h1>{{ page.title }}</h1>
+		{% comment %}<button onmouseup="window.location = '/stations/map/';"><span class="icon-pin"></span> Map View</button>{% endcomment %}
+		{% comment %}<div>{% endcomment %}
+			{% comment %}<input type="text" name="search" class="text-box no-right">{% endcomment %}
+			{% comment %}<button class="no-left" name="submit" type="submit"><span class="icon-search"></span></button>{% endcomment %}
+		{% comment %}</div>{% endcomment %}
+	</div>
+
+	{{ content }}
+
+	<div class="stations">
+		{% for station in site.stations %}
+			<div class="station" style="background-image: url(/station_images/{{ station.image }});">
+				<div class="blurBG back" style="background-image: url(/station_images/{{ station.image }});"></div>
+				<div class="blurBG front" style="background-image: url(/station_images/{{ station.image }});"></div>
+				<h2><a href="{{ station.link }}">{{ station.title }}</a><button class="expand">&rang;</button></h2>
+				{% comment %}<p class="short">{% endcomment %}
+				{{ station.content }}
+				{% comment %}</p>{% endcomment %}
+				<div class="tags">
+					{% for tag in station.tags %}
+						<button class="s-tag {{ tag }}">{{ site.tag_names[tag] }}</button>
+					{% endfor %}
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+</article>
+
+<script type="application/javascript">
+	document.addEventListener("DOMContentLoaded", () => {
+		document.querySelectorAll(".station").forEach((station) => {
+			station.querySelector(".expand").addEventListener("click", (e) => {
+				const stationEl = e.target.parentElement.parentElement;
+				if (stationEl.className.includes("station-expand")) {
+					// Is expanded; contract
+					e.target.innerHTML = "&rang;";
+					stationEl.classList.remove("station-expand");
+				} else {
+					// Is contracted; expand
+					e.target.innerText = "✕";
+					stationEl.classList.add("station-expand");
+					stationEl.scrollIntoView();
+				}
+				console.log(e.target.parentNode.parentNode);
+			});
+		});
+	});
+</script>
+
+{% include footer.html %}

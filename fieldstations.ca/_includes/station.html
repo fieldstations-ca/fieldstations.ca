@@ -1,0 +1,13 @@
+<div class="station{% if include.station.image == "" %} bg-generic{% endif %}" style="background-image: url(/station_images/{{ include.station.image }}); {% if generic %}background-repeat: repeat; -webkit-background-size: auto auto; -moz-background-size: auto auto; -ms-background-size: auto auto; background-size: auto auto;{% endif %}">
+    <div class="blurBG back" style="background-image: url(/station_images/{{ include.station.image }}); {% if generic %}background-repeat: repeat; -webkit-background-size: auto auto; -moz-background-size: auto auto; -ms-background-size: auto auto; background-size: auto auto;{% endif %}"></div>
+    <div class="blurBG front" style="background-image: url(/station_images/{{ include.station.image }}); {% if generic %}background-repeat: repeat; -webkit-background-size: auto auto; -moz-background-size: auto auto; -ms-background-size: auto auto; background-size: auto auto;{% endif %}"></div>
+    <h2><a href="{{ station["url"] }}">{{ station["name"] }}</a><button class="expand">&rang;</button></h2>
+    <p>
+        {{ include.station.content | markdownify }}
+    </p>
+    <div class="tags">
+        {% for tag in include.station.tags %}
+            {% if tag != "" %}<button class="s-tag {{ tag }}">{{ tags[tag] }}</button>{% endif %}
+        {% endfor %}
+    </div>
+</div>

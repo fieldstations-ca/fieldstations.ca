@@ -1,0 +1,28 @@
+---
+layout: base
+---
+
+<main>
+<article>
+    <h1>{{ page.title }}</h1>
+    {{ content }}
+</article>
+{% if page.permalink == "/importance/" %}
+<aside>
+    <img src="/images/sidebar_image.jpg" alt="">
+    <small class="caption">
+        <a href="https://www.flickr.com/photos/qubsoutreach/9698707367/in/set-72157626505135928">Image</a> by
+        <a href="https://gregbulte.weebly.com/">Greg Bult&eacute;</a>.</small>
+</aside>
+{% elsif page.permalink == "/tribute/" %}
+<aside class="smaller">
+    <img src="/images/delta1.jpg"><br>
+    <img src="/images/delta2.jpg">
+    <small class="caption">
+        Images by Shahnoor Habib Munmun. Licensed under Creative Commons
+        <a href="http://creativecommons.org/licenses/by/3.0/deed.en">Attribution 3.0 Unported</a>.
+    </small>
+</aside>
+{% endif %}
+</main>
+{% include footer.html %}

@@ -1,0 +1,16 @@
+title: Canadian Field Stations
+url: "https://fieldstations.ca"
+
+collections:
+  - stations
+
+tag_names:
+  indie: Independent
+  univlink: University-Linked
+  gov: Governmental
+  accom: Accommodations
+  marine: Marine
+  subarctic: Sub-Arctic
+  arctic: Arctic
+  freshwater: Freshwater
+  land: Terrestrial
