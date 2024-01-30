@@ -1,5 +1,6 @@
 title: Canadian Field Stations
 url: "https://fieldstations.ca"
+repository: https://github.com/fieldstations-ca/fieldstations.ca
 
 collections:
   - stations
