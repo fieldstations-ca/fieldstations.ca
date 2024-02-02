@@ -1,6 +1,6 @@
 ---
 title: Umiujaq Research Station (Centre d'études nordiques)
-link: http://www.cen.ulaval.ca/en/station.php?id=325&nm=umiujaq
+link: https://www.cen.ulaval.ca/en/infrastructures/qaujisarvik-network/umiujaq/
 image: umiujaq.jpg
 lat: 56.5519444
 lng: -76.5491667

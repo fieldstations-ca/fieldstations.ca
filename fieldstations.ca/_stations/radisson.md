@@ -1,6 +1,6 @@
 ---
 title: Radisson Ecological Research Station (Centre d'études nordiques)
-link: http://www.cen.ulaval.ca/en/station.php?id=320&nm=radisson
+link: https://www.cen.ulaval.ca/en/infrastructures/qaujisarvik-network/radisson/
 image: radisson.jpg
 lat: 53.7913889
 lng: -77.6102778

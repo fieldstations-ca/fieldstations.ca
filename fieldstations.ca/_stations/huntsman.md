@@ -1,6 +1,6 @@
 ---
 title: Huntsman Marine Science Centre
-link:  http://www.huntsmanmarine.ca/
+link:  https://www.huntsmanmarine.ca/
 image: huntsman.jpg
 lat: 45.084687
 lng: -67.080159

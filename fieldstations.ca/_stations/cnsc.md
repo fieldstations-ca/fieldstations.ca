@@ -1,6 +1,6 @@
 ---
 title: Churchill Northern Studies Centre
-link: http://www.churchillscience.ca
+link: https://churchillscience.ca
 image: cnsc.jpg
 lat: 58.737502
 lng: -93.819036

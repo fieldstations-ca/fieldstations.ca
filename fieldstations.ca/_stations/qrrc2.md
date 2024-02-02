@@ -1,6 +1,6 @@
 ---
 title: Quesnel River Research Centre
-link: http://unbc.ca/qrrc
+link: https://www2.unbc.ca/quesnel-river-research-centre
 image: qrrc2.jpg
 lat: 52.621056
 lng: -121.6065593

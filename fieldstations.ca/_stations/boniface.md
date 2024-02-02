@@ -1,6 +1,6 @@
 ---
 title: Boniface River Field Station (Centre d'études nordiques)
-link: http://www.cen.ulaval.ca/en/station.php?id=327&nm=boniface
+link: https://www.cen.ulaval.ca/en/infrastructures/qaujisarvik-network/boniface-river/
 image: boniface.jpg
 lat: 57.45
 lng: -76.1

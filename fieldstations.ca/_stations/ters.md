@@ -1,6 +1,6 @@
 ---
 title: Tundra Ecosystem Research Station
-link: http://www.enr.gov.nt.ca/en/services/research-and-data/tundra-ecosystem-research-station
+link: https://www.gov.nt.ca/ecc/en/services/research-and-data-nwt/tundra-ecosystem-research-station
 image: ters.jpg
 lat: 64.8398574
 lng: -111.6398322

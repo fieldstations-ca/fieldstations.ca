@@ -1,6 +1,6 @@
 ---
 title: Algonquin Wildlife Research Station
-link: http://www.algonquinwrs.ca/
+link: https://www.algonquinwrs.ca/
 image: awrs.jpg
 lat: 45.5905412
 lng: -78.5213254

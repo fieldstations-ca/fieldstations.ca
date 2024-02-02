@@ -1,6 +1,6 @@
 ---
 title: Salluit Research Station (Centre d'études nordiques)
-link: http://www.cen.ulaval.ca/en/station.php?id=324&nm=salluit
+link: https://www.cen.ulaval.ca/en/infrastructures/qaujisarvik-network/salluit/
 image: salluit.png
 lat: 62.2
 lng: -75.633333

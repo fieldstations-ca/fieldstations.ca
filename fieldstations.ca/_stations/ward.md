@@ -1,6 +1,6 @@
 ---
 title: Ward Hunt Island Field Station (Centre d'études nordiques)
-link: http://www.cen.ulaval.ca/en/station.php?id=326&nm=wardhunt
+link: https://www.cen.ulaval.ca/en/infrastructures/qaujisarvik-network/ward-hunt/
 image: ward.png
 lat: 83.1
 lng: -74.166667

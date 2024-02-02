@@ -1,6 +1,6 @@
 ---
 title: Station de biologie des Laurentides
-link: http://www.sbl.umontreal.ca/
+link: https://sbl.umontreal.ca/accueil/
 image: laurentides.png
 lat: 45.987142
 lng: -74.005411

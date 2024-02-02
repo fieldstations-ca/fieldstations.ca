@@ -1,6 +1,6 @@
 ---
 title: Clearwater Lake Station (Centre d'études nordiques)
-link: http://www.cen.ulaval.ca/en/station.php?id=323&nm=lec
+link: https://cen.ulaval.ca/en/infrastructures/qaujisarvik-network/clearwater-lake/
 image: clearwater.jpg
 lat: 56.33
 lng: -74.45

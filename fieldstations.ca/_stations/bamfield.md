@@ -1,6 +1,6 @@
 ---
 title: Bamfield Marine Sciences Centre
-link: http://www.bamfieldmsc.com/
+link: https://bamfieldmsc.com/
 image: bamfield.jpg
 lat: 48.829808
 lng: -125.131944

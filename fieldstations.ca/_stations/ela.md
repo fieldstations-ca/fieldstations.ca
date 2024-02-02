@@ -1,6 +1,6 @@
 ---
 title: Experimental Lakes Area
-link: http://www.iisd.org/ela
+link: https://www.iisd.org/ela/
 image: ela.jpg
 lat: 49.6597568
 lng: -93.7272581

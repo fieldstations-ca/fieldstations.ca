@@ -1,6 +1,6 @@
 ---
 title: Bylot Island Field Station (Centre d'études nordiques) 
-link: http://www.cen.ulaval.ca/en/station.php?id=322&nm=bylot
+link: https://bylot.cen.ulaval.ca/
 image: bylot.png
 lat: 73.133333
 lng: -80

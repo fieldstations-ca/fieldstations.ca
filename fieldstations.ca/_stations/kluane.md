@@ -1,6 +1,6 @@
 ---
 title: Kluane Lake Research Station
-link: http://arctic.ucalgary.ca/about-kluane-lake-research-station
+link: https://klrs.ca/
 image: kluane.png
 lat: 60.9950933
 lng: -138.0402937

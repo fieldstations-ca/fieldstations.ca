@@ -1,6 +1,6 @@
 ---
 title: Harkness Laboratory of Fisheries Research
-link: http://www.harkness.ca/
+link: https://www.harkness.ca/
 image: harkness.png
 lat: 45.635317
 lng: -78.3616547

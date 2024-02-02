@@ -1,6 +1,6 @@
 ---
 title: Koffler Scientific Reserve at Jokers Hill
-link: http://ksr.utoronto.ca/
+link: https://ksr.utoronto.ca/
 image: koffler.png
 lat: 44.05
 lng: -79.483
