@@ -1,7 +1,7 @@
 ---
 title: Harkness Laboratory of Fisheries Research
 link: https://www.harkness.ca/
-image: harkness.png
+image: harkness.jpg
 lat: 45.635317
 lng: -78.3616547
 tags: gov accom freshwater land
