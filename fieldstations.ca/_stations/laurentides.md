@@ -1,7 +1,7 @@
 ---
 title: Station de biologie des Laurentides
 link: https://sbl.umontreal.ca/accueil/
-image: laurentides.png
+image: laurentides.jpg
 lat: 45.987142
 lng: -74.005411
 tags: univlink land freshwater accom
