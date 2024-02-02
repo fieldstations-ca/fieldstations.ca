@@ -1,0 +1,66 @@
+---
+layout: base
+---
+
+<script type="text/javascript"
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxhFb7lhQ_HqG7Pm6gELBdJptqk9im2DM&sensor=false">
+</script>
+<script type="text/javascript">
+const locations = {
+    {% for station in site.stations %}
+    "{{ station.title }}": new google.maps.LatLng({{ station.lat }}, {{ station.lng }}),
+    {% endfor %}
+};
+
+const stationData = {
+    {% for station in site.stations %}
+    "{{ station.title }}": {
+		title: "{{ station.title }}",
+	    content: `{{ station.content | markdownify }}`,
+		link: "{{ station.link }}",
+		point: new google.maps.LatLng({{ station.lat }}, {{ station.lng }}),
+	},
+    {% endfor %}
+};
+
+const markers = [];
+const windows = [];
+function initialize() {
+	const mapOptions = {
+		center: new google.maps.LatLng(65.260, -112.50),
+		zoom: 2
+	};
+	const map = new google.maps.Map(document.getElementById("map-div"), mapOptions);
+	let index = 0;
+	for(let loc in stationData) {
+		const station = stationData[loc];
+		const marker = new google.maps.Marker({
+			position: station.point,
+			map: map,
+			title: station.title,
+			content: station.content,
+			link: station.link,
+		});
+		markers.push(marker);
+		google.maps.event.addListener(markers[index], "click", function () {
+			const wn = new google.maps.InfoWindow({
+				content: `
+					<h2><a href="${this.link}" target="_blank" rel="nofollow">${this.title}</a></h2>${this.content}`,
+			});
+			wn.open(map, this);
+		});
+		index++;
+	}
+}
+google.maps.event.addDomListener(window, "load", initialize);
+</script>
+
+<main>
+<article class="no-side">
+	<div class="stations-header">
+		<h1>{{ page.title }}</h1>
+		<button onmouseup="window.location = '/stations/';"><span class="icon-grid"></span> List View</button>
+	</div>
+	<div id="map-div" style="height: 520px;"></div>
+</article>
+</main>
