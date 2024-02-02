@@ -32,7 +32,7 @@ function initialize() {
 	};
 	const map = new google.maps.Map(document.getElementById("map-div"), mapOptions);
 	let index = 0;
-	for(let loc in stationData) {
+	for (let loc in stationData) {
 		const station = stationData[loc];
 		const marker = new google.maps.Marker({
 			position: station.point,
