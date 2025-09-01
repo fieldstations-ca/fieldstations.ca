@@ -1,6 +1,6 @@
 ---
 title: Bonne Bay Marine Station
-link: http://www.bonnebay.ca/
+link: https://mun.ca/grenfellcampus/research/bonne-bay-aquarium--research-station/
 image: bonne.jpg
 lat: 49.517213
 lng: -57.876434
